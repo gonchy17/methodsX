@@ -1,0 +1,45 @@
+<section class="form_one">
+ <h4 class="text-center">Welcome Stage One</h4>
+
+<form [formGroup]="form">
+  <div class="form-group">
+    <label for="nameOperation">Name Operation:</label>
+    <input type="text" class="form-control" placeholder="Enter name operation" formControlName="nameOperation">  
+  </div>
+  
+  <div class="form-group">
+    <label for="numberOperators">Number Operators:</label>
+    <input type="text" class="form-control" placeholder="Enter number operators">
+  </div>
+
+  <div class="form-group">
+    <label for="numberMachines">Number of Machines:</label>
+    <input type="text" class="form-control" placeholder="Enter number of machines">
+  </div>
+
+    <div class="form-group">
+        <label for="timeOperation">Time Operation:</label>
+        <input type="text" class="form-control" placeholder="Enter time operation">
+   </div>
+   
+  <div class="form-group">
+         <label for="selectTime">Select your time:</label>
+         <select class="form-control">
+            <option>Minutes</option>
+            <option>Seconds</option>
+         </select>
+  </div>
+
+  <div class="form-group">
+    <label for="capacity">Capacity:</label>
+    <input type="text" class="form-control"  placeholder="Enter capacity">
+  </div>
+
+<div class="form-group">
+    <label for="timeRealAttention">Time real of attention:</label>
+    <input type="email" class="form-control"  placeholder="Enter time real">
+    
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</section>
